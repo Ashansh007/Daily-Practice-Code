@@ -1,0 +1,11 @@
+a=prompt("Enter the first value:");
+b=prompt("Enter the second value:")
+if(a>0&&b>0)
+console.log(`(${a},${b}) are in first Quad`);
+else if(a<0&&b>0)
+console.log(`(${a},${b}) are in second Quad`);
+else if(a<0&&b<0)
+console.log(`(${a},${b}) are in third Quad`);
+else{
+    console.log(`(${a},${b}) are in fourth Quad`);
+}
