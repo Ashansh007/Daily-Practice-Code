@@ -1,0 +1,27 @@
+input=prompt("enter the year:")
+input=Number(input)
+if((input%4==0 && input%100!=0)||(input%400==0)){
+    console.log(`${input} is a leap year`)
+}
+else{
+    console.log(`${input} is a not a leap year`)
+}
+
+____________________________________________________________________
+
+let input=prompt("enter the number:")
+input=Number(input)
+for(i=1;i<=input;i++){
+if(i%3==0&&i%5==0){
+    console.log("FizzBuzz")
+}
+  else if(i%3==0){
+    console.log("Fizz");
+  }
+else if(i%5==0){
+    console.log("Buzz");
+}
+else{
+    console.log(i)
+}
+}
